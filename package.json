@@ -1,0 +1,13 @@
+{
+  "name": "ruln-verify",
+  "version": "1.0.0",
+  "description": "Read-only on-chain checks for RULN arena tokens: Pump.fun origin, bonding curve and the 80/20 creator fee split.",
+  "type": "module",
+  "exports": "./src/index.mjs",
+  "bin": { "ruln-verify": "./bin/ruln-verify.mjs" },
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "@solana/kit": "^5.5.1" },
+  "keywords": ["ruln", "solana", "pump.fun", "verify"],
+  "license": "MIT"
+}
