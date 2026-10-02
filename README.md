@@ -9,7 +9,7 @@ Every arena token locks its Pump.fun creator fees on-chain: **80% to the creator
 ## Check a token
 
 ```bash
-npx github:ruln-app/ruln-verify token <MINT> --treasury <RULN_TREASURY>
+npx github:rulnapp/ruln-verify token <MINT> --treasury <RULN_TREASURY>
 ```
 
 ```
@@ -30,7 +30,7 @@ Exit code is `0` only when every check passes. Add `--json` for machine-readable
 ## Check the treasury
 
 ```bash
-npx github:ruln-app/ruln-verify treasury <RULN_TREASURY>
+npx github:rulnapp/ruln-verify treasury <RULN_TREASURY>
 ```
 
 Shows the balance and recent transactions with Solscan links: fee splits coming in, King rewards going out.
